@@ -13,7 +13,7 @@ Package detailed description here (found in README)</description>
   <active>yes</active>
  </lead>
  <date>2010-12-01</date>
- <time>10:34:21</time>
+ <time>10:39:48</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -28,7 +28,13 @@ Package detailed description here (found in README)</description>
 Package Config_Lite API release notes for version 0.1.0.</notes>
  <contents>
   <dir name="/">
-   <file role="php" name="php/PEAR2/Config/Lite/Main.php"/>
+   <file role="test" name="test/Config_Lite/pear.php.net/test.cfg"/>
+   <file role="test" name="test/Config_Lite/pear.php.net/AllTests.php"/>
+   <file role="php" name="php/Config/Lite/UnexpectedValueException.php"/>
+   <file role="php" name="php/Config/Lite/RuntimeException.php"/>
+   <file role="php" name="php/Config/Lite/InvalidArgumentException.php"/>
+   <file role="php" name="php/Config/Lite/Exception.php"/>
+   <file role="php" name="php/Config/Lite.php"/>
   </dir>
  </contents>
  <dependencies>
@@ -43,7 +49,13 @@ Package Config_Lite API release notes for version 0.1.0.</notes>
  </dependencies>
  <phprelease>
   <filelist>
-   <install name="php/PEAR2/Config/Lite/Main.php" as="PEAR2/Config/Lite/Main.php"/>
+   <install name="php/Config/Lite.php" as="Config/Lite.php"/>
+   <install name="php/Config/Lite/Exception.php" as="Config/Lite/Exception.php"/>
+   <install name="php/Config/Lite/InvalidArgumentException.php" as="Config/Lite/InvalidArgumentException.php"/>
+   <install name="php/Config/Lite/RuntimeException.php" as="Config/Lite/RuntimeException.php"/>
+   <install name="php/Config/Lite/UnexpectedValueException.php" as="Config/Lite/UnexpectedValueException.php"/>
+   <install name="test/Config_Lite/pear.php.net/AllTests.php" as="pear.php.net/AllTests.php"/>
+   <install name="test/Config_Lite/pear.php.net/test.cfg" as="pear.php.net/test.cfg"/>
   </filelist>
  </phprelease>
 </package>

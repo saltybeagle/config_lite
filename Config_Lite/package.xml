@@ -13,7 +13,7 @@ Package detailed description here (found in README)</description>
   <active>yes</active>
  </lead>
  <date>2010-12-01</date>
- <time>10:34:21</time>
+ <time>10:39:48</time>
  <version>
   <release>0.1.0</release>
   <api>0.1.0</api>
@@ -28,12 +28,20 @@ Package detailed description here (found in README)</description>
 Package Config_Lite API release notes for version 0.1.0.</notes>
  <contents>
   <dir name="/">
-   <dir name="src" baseinstalldir="PEAR2">
+   <dir name="src" baseinstalldir="/">
     <dir name="Config">
      <dir name="Lite">
-      <file role="php" name="Main.php"/>
+      <file role="php" name="Exception.php"/>
+      <file role="php" name="InvalidArgumentException.php"/>
+      <file role="php" name="RuntimeException.php"/>
+      <file role="php" name="UnexpectedValueException.php"/>
      </dir>
+     <file role="php" name="Lite.php"/>
     </dir>
+   </dir>
+   <dir name="tests" baseinstalldir="/">
+    <file role="test" name="AllTests.php"/>
+    <file role="test" name="test.cfg"/>
    </dir>
   </dir>
  </contents>
